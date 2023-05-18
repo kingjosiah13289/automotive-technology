@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#09E4B7"
+    tools:context=".InsuranceActivity">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="244dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="140dp"
+        android:text="INSURANCE"
+        android:textAlignment="center"
+        android:textColor="#0759EF"
+        android:textSize="29dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="290dp"
+        android:layout_height="123dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:srcCompat="@drawable/insurance" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="381dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MOTOR PRIVATE COVER
+             Motor insurance protects the insured against loss if the motor vehicle insured is involved in an accident, burnt, stolen and third party liability arising from use of the insured motor vehicle. Our main products include:
+              Comprehensive Insurance Cover This cover takes care of a wide range of risks that a motorist may suffer in the process of using his/her vehicle. The main cover features are as follows;      Accidental Impact damage including overturning and collision.     Accidental Fire damage.     Theft/partial Theft cover.
+                 Third-party liability cover for bodily injury  property damage.     Windscreen cover.     Entertainment system cover.     Emergency Medical expense cover.     Courtesy car/ loss of use cover.     Excess protector.     Political Violence  Terrorism cover.
+                  Third-Party, Fire and Theft This policy covers the insured against three main risks;      Third-party liability cover for bodily injury or property damage as a result of your vehicle being involved in an accident.     Accidental Fire damage in the event your vehicle catches fire and is destroyed.     Theft cover as a result of your vehicle being stolen.  Third-Party Insurance Cover It is the minimum legal cover that every car owner must have to be legally on the road. The cover protects a vehicle owner from liabilities that may arise from third parties in the event of an accident. Third-party liability relates to:      Bodily injury.     Property damage.  This cover does
+                  not protect the car owner from personal liabilities - any repair costs are met by the insured himself." />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

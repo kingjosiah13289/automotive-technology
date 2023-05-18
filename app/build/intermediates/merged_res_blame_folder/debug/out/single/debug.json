@@ -1,0 +1,290 @@
+[
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable_insurance.jpeg.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/drawable/insurance.jpeg"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable_autoservice.jpeg.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/drawable/autoservice.jpeg"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable_carwash.jpeg.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/drawable/carwash.jpeg"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/layout_activity_cleaning.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/layout/activity_cleaning.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable_fueling.png.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/drawable/fueling.png"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-pngs-30:/drawable-anydpi-v21/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/layout_activity_view_spareparts.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/layout/activity_view_spareparts.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable_cleaning.png.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/drawable/cleaning.png"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-pngs-30:/drawable-ldpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable_maintain.jpg.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/drawable/maintain.jpg"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable_drivinglicense.jpg.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/drawable/drivinglicense.jpg"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-pngs-30:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable_autospares.jpeg.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/drawable/autospares.jpeg"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/layout_activity_fuel.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/layout/activity_fuel.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/layout_activity_insurance.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/layout/activity_insurance.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/layout_activity_homepage.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/layout/activity_homepage.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/layout_activity_ceaning_two.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/layout/activity_ceaning_two.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/layout_activity_cleaning_two.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/layout/activity_cleaning_two.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable_carengine.jpg.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/drawable/carengine.jpg"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/layout_activity_purchase_autos.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/layout/activity_purchase_autos.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable_carcrash.jpg.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/drawable/carcrash.jpg"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/layout_activity_ntsawebsite.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/layout/activity_ntsawebsite.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable_mapsss.png.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/drawable/mapsss.png"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/layout_activity_vehicleinsurance_website.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/layout/activity_vehicleinsurance_website.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable_gmail.png.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/drawable/gmail.png"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable_repair.jpeg.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/drawable/repair.jpeg"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/layout_activity_spareparts_website.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/layout/activity_spareparts_website.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/layout_service_item.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/layout/service_item.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable_ntsa.jpeg.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/drawable/ntsa.jpeg"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/layout_activity_signin.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/layout/activity_signin.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/layout_activity_viewservices.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/layout/activity_viewservices.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-pngs-30:/drawable-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.example.automotivetech.app-merged_res-34:/layout_activity_viewservices.xml.flat",
+        "source": "com.example.automotivetech.app-main-36:/layout/activity_viewservices.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/layout_activity_addmech_anicactivity.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/layout/activity_addmech_anicactivity.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-pngs-30:/drawable-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/xml_backup_rules.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable_buttonone.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/drawable/buttonone.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/layout_activity_services.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/layout/activity_services.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable_repaircar.png.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/drawable/repaircar.png"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/layout_activity_addservices.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/layout/activity_addservices.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/layout_activity_fullvehicleservice.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/layout/activity_fullvehicleservice.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable_typescars.png.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/drawable/typescars.png"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable_fuelstation.jpg.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/drawable/fuelstation.jpg"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/layout_spareparts.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/layout/spareparts.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/layout_activity_mechanics.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/layout/activity_mechanics.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/layout_activity_viewmechanic.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/layout/activity_viewmechanic.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable_google.png.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/drawable/google.png"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable_cleaninggg.jpg.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/drawable/cleaninggg.jpg"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-pngs-30:/drawable-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/layout_activity_add_spareparts.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/layout/activity_add_spareparts.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable_toyota.jpg.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/drawable/toyota.jpg"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable_pricelist.jpeg.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/drawable/pricelist.jpeg"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/layout_activity_autoservice.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/layout/activity_autoservice.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/layout_activity_maintaining.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/layout/activity_maintaining.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/layout_mechanics.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/layout/mechanics.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/layout_activity_main.xml.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-pngs-30:/drawable-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable_carmapss.png.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/drawable/carmapss.png"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-pngs-30:/drawable-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-merged_res-34:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/emobilis/.gradle/daemon/8.0/com.example.automotivetech.app-main-36:/mipmap-xhdpi/ic_launcher.webp"
+    }
+]

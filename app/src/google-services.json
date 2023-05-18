@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "759301847782",
+    "project_id": "automotive-tech",
+    "storage_bucket": "automotive-tech.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759301847782:android:f50a5f5cffa5dd34791927",
+        "android_client_info": {
+          "package_name": "com.example.automotivetech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759301847782-961c81jh60hbofpijpnukkh5migumljf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI9_cW25fnD3ndMC5pegLnQkE2xhh1BH4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759301847782-961c81jh60hbofpijpnukkh5migumljf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

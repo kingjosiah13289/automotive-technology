@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1AD3EF"
+    tools:context=".FuelActivity">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="214dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="12dp"
+        android:text="low on fuel?"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_fillingstation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+
+        android:id="@+id/btn_fillingstation"
+        android:layout_width="205dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="197dp"
+        android:text="Find a filling station"
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="273dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="4dp"
+        android:text="What  to do during fueling"
+        android:textAlignment="center"
+        android:textColor="#0421DD"
+        android:textSize="21dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView18"
+        app:layout_constraintStart_toStartOf="@+id/textView18"
+        app:layout_constraintTop_toBottomOf="@+id/btn_fillingstation" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="347dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        app:srcCompat="@drawable/fueling" />
+
+    <TextView
+
+        android:id="@+id/textView18"
+        android:layout_width="364dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="30dp"
+        android:text="Ensure your vehicle is turned off to avoid risk of an explotion Put your vehicle in &quot;park&quot; and/or set the emergency brake. Disable or turn off any auxiliary sources of ignition, such as a camper or trailer heater, cooking units or pilot lights. Do not smoke, light matches or lighters while refueling at the pump, or when using gasoline anywhere else."
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="148dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="33dp"
+        android:text="FUELING"
+        android:textAlignment="center"
+        android:textColor="#F81010"
+        android:textSize="29dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

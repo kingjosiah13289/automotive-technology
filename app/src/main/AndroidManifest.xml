@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/repair"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/repair"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AutomotiveTech"
+        tools:targetApi="31">
+        <activity
+            android:name=".ViewSparepartsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddSparepartsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewmechanicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddmechANICActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewservicesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddservicesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SparepartsWebsite"
+            android:exported="false" />
+        <activity
+            android:name=".PurchaseAutosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MechanicsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VehicleinsuranceWebsite"
+            android:exported="false" />
+        <activity
+            android:name=".CleaningTwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CleaningActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InsuranceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FuelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NtsawebsiteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomepageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AutoserviceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MaintainingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FullvehicleserviceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ServicesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SigninActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

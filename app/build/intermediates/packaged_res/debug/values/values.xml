@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">AutomotiveTech</string>
+    <string name="default_web_client_id" translatable="false">759301847782-961c81jh60hbofpijpnukkh5migumljf.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">759301847782</string>
+    <string name="google_api_key" translatable="false">AIzaSyAI9_cW25fnD3ndMC5pegLnQkE2xhh1BH4</string>
+    <string name="google_app_id" translatable="false">1:759301847782:android:f50a5f5cffa5dd34791927</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAI9_cW25fnD3ndMC5pegLnQkE2xhh1BH4</string>
+    <string name="google_storage_bucket" translatable="false">automotive-tech.appspot.com</string>
+    <string name="project_id" translatable="false">automotive-tech</string>
+    <style name="Base.Theme.AutomotiveTech" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.AutomotiveTech" parent="Base.Theme.AutomotiveTech"/>
+</resources>

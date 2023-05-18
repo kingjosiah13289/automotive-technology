@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/sparepart_part"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="22dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/sparepart_name"
+        app:layout_constraintEnd_toEndOf="@+id/sparepart_name"
+        app:layout_constraintStart_toStartOf="@+id/sparepart_name"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sparepart_name"
+        android:layout_width="216dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="563dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sparepart_part" />
+
+    <TextView
+        android:id="@+id/sparepart_price"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="484dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/sparepart_part"
+        app:layout_constraintStart_toStartOf="@+id/sparepart_name" />
+</androidx.constraintlayout.widget.ConstraintLayout>

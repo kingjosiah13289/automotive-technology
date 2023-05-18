@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btn_repairmaintenance"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/toyota"
+    tools:context=".ServicesActivity">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="245dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="93dp"
+        android:text="SERVICES OFFERED"
+        android:textAlignment="center"
+        android:textColor="#EC0B0B"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_maintainRepair"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_vehicleservice"
+
+        android:layout_width="0dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="45dp"
+        android:background="@drawable/buttonone"
+        android:text="Full vehicle service"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_maintainRepair"
+        app:layout_constraintEnd_toStartOf="@+id/btn_maintainRepair"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_autoservice"
+        android:layout_width="0dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/buttonone"
+        android:text="Auto service"
+        app:layout_constraintBottom_toTopOf="@+id/btn_insurance"
+        app:layout_constraintEnd_toStartOf="@+id/btn_cleaning"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_vehicleservice" />
+
+    <Button
+        android:id="@+id/btn_fuel"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="261dp"
+        android:background="@drawable/buttonone"
+        android:text="Fuel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_insurance"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_cleaning" />
+
+    <Button
+        android:id="@+id/btn_insurance"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="33dp"
+        android:background="@drawable/buttonone"
+        android:text="Vehicle insurance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_fuel"
+        app:layout_constraintTop_toBottomOf="@+id/btn_cleaning" />
+
+    <Button
+        android:id="@+id/btn_cleaning"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="53dp"
+        android:background="@drawable/buttonone"
+        android:text="Vehicle cleaning"
+        app:layout_constraintBottom_toTopOf="@+id/btn_fuel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_autoservice"
+        app:layout_constraintTop_toBottomOf="@+id/btn_maintainRepair" />
+
+    <Button
+        android:id="@+id/btn_maintainRepair"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/buttonone"
+        android:text="Maintenance and repair"
+        app:layout_constraintBottom_toTopOf="@+id/btn_cleaning"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_vehicleservice"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/maintain"
+    tools:context=".FullvehicleserviceActivity">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="19dp"
+        android:text="Choose the service you wish to be offered"
+        android:textAlignment="center"
+        android:textColor="#0843D8"
+        android:textSize="23dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/btn_airfilter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_airfilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginBottom="21dp"
+        android:text="Air filter change"
+        app:layout_constraintBottom_toTopOf="@+id/btn_fuelfilter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <Button
+        android:id="@+id/btn_fuelfilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Fuel filter (diesel) / Spark plugs change (petrol)"
+        app:layout_constraintBottom_toTopOf="@+id/btn_brakeExtension"
+        app:layout_constraintStart_toStartOf="@+id/btn_airfilter"
+        app:layout_constraintTop_toBottomOf="@+id/btn_airfilter" />
+
+    <Button
+        android:id="@+id/btn_brakeExtension"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Extensive brake inspection. "
+        app:layout_constraintBottom_toTopOf="@+id/btn_wheelBearing"
+        app:layout_constraintStart_toStartOf="@+id/btn_fuelfilter"
+        app:layout_constraintTop_toBottomOf="@+id/btn_fuelfilter" />
+
+    <Button
+        android:id="@+id/btn_wheelBearing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="29dp"
+        android:text="Wheel bearings and shock absorbers inspection."
+        app:layout_constraintBottom_toTopOf="@+id/btn_ElecTest"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_brakeExtension" />
+
+    <Button
+        android:id="@+id/btn_ElecTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginBottom="244dp"
+        android:text="Electrical components (e.g. battery, alternator and starter motor) tested."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_wheelBearing" />
+</androidx.constraintlayout.widget.ConstraintLayout>

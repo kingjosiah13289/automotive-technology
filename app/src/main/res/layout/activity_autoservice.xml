@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/autoservice"
+    tools:context=".AutoserviceActivity">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="60dp"
+        android:text="AUTOSERVICE ACTIVITIES"
+        android:textAlignment="center"
+        android:textColor="#33EA0A"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_oilChange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_oilChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="29dp"
+        android:text="Oil/oil filter changed."
+        app:layout_constraintBottom_toTopOf="@+id/btn_wiperblades"
+        app:layout_constraintStart_toStartOf="@+id/btn_wiperblades"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <Button
+        android:id="@+id/btn_wiperblades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="21dp"
+        android:text="Wiper blades replacement."
+        app:layout_constraintBottom_toTopOf="@+id/btn_newtyres"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/btn_oilChange" />
+
+    <Button
+        android:id="@+id/btn_newtyres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="New tires."
+        app:layout_constraintBottom_toTopOf="@+id/btn_batteryreplacement"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_wiperblades" />
+
+    <Button
+        android:id="@+id/btn_batteryreplacement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:text="Battery replacement."
+        app:layout_constraintBottom_toTopOf="@+id/btn_brakework"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_newtyres" />
+
+    <Button
+        android:id="@+id/btn_brakework"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="240dp"
+        android:text="Brake work."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_batteryreplacement"
+        app:layout_constraintTop_toBottomOf="@+id/btn_batteryreplacement" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

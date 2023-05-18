@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00B8D4"
+    tools:context=".HomepageActivity">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="345dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="17dp"
+        android:text="WELCOME TO AUTOMOTIVE TECH WHERE WE VALUE YOUR SAFETY AND COMFORT"
+        android:textAlignment="center"
+        android:textColor="#EF0B0B"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/mBtnViewServices"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+
+        android:id="@+id/textView14"
+        android:layout_width="276dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="125dp"
+        android:text="AUTOMOTIVE TECH"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/mBtnAddServices"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+
+        android:id="@+id/mBtnAddServices"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="37dp"
+        android:text="Add services"
+        app:layout_constraintBottom_toTopOf="@+id/mBtnAddMechanic"
+        app:layout_constraintEnd_toStartOf="@+id/mBtnViewServices"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <Button
+
+        android:id="@+id/mBtnViewServices"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="38dp"
+        android:text="View Services"
+        app:layout_constraintBottom_toTopOf="@+id/mBtnViewMechanics"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mBtnAddServices"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <Button
+        android:id="@+id/mBtnAddAutospares"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="38dp"
+        android:text="Add Autospares"
+        app:layout_constraintBottom_toTopOf="@+id/btn_vehicleinsurance"
+        app:layout_constraintEnd_toStartOf="@+id/mBtnViewAutospares"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mBtnAddMechanic" />
+
+    <Button
+        android:id="@+id/mBtnViewAutospares"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="39dp"
+        android:text="View Autospares"
+        app:layout_constraintBottom_toTopOf="@+id/btn_ntsaweb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mBtnAddAutospares"
+        app:layout_constraintTop_toBottomOf="@+id/mBtnViewMechanics" />
+
+    <Button
+        android:id="@+id/mBtnAddMechanic"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="42dp"
+        android:text="Add Mechanic"
+        app:layout_constraintBottom_toTopOf="@+id/mBtnAddAutospares"
+        app:layout_constraintEnd_toStartOf="@+id/mBtnViewMechanics"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mBtnAddServices" />
+
+    <Button
+        android:id="@+id/mBtnViewMechanics"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="36dp"
+        android:text="View Mechanics"
+        app:layout_constraintBottom_toTopOf="@+id/mBtnViewAutospares"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mBtnAddMechanic"
+        app:layout_constraintTop_toBottomOf="@+id/mBtnViewServices" />
+
+    <Button
+        android:id="@+id/btn_vehicleinsurance"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="34dp"
+        android:text="Vehicle Insurance"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_ntsaweb"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mBtnAddAutospares" />
+
+    <Button
+        android:id="@+id/btn_ntsaweb"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="28dp"
+        android:text="Visit NTSA website"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_vehicleinsurance"
+        app:layout_constraintTop_toBottomOf="@+id/mBtnViewAutospares" />
+</androidx.constraintlayout.widget.ConstraintLayout>
