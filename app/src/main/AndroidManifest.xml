@@ -45,9 +45,6 @@
             android:name=".PurchaseAutosActivity"
             android:exported="false" />
         <activity
-            android:name=".MechanicsActivity"
-            android:exported="false" />
-        <activity
             android:name=".VehicleinsuranceWebsite"
             android:exported="false" />
         <activity
